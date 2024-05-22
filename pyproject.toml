@@ -1,0 +1,15 @@
+[project]
+name = "keppromptlang"
+description = "Nodes: Build Gif, Special CLIP Loader. It offers various manipulation capabilities for the internal operations of the prompt."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["lark", "packaging"]
+
+[project.urls]
+Repository = "https://github.com/M1kep/KepPromptLang"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "KepPromptLang"
+Icon = ""
