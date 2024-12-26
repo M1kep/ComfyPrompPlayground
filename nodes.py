@@ -7,7 +7,7 @@ from PIL import Image
 import folder_paths
 import comfy.sd
 import comfy.ops
-from comfy.sd2_clip import SD2ClipModel
+from comfy.text_encoders.sd2_clip import SD2ClipModel
 from comfy.sdxl_clip import SDXLClipModel
 from comfy.supported_models_base import ClipTarget
 from custom_nodes.KepPromptLang.lib.clip_model import (
